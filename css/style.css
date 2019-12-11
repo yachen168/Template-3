@@ -1,0 +1,47 @@
+:root {
+    --color-dark: #4A4A4A;
+    --color-white: #fff;
+    --color-lightGreen: #DEE9D5;
+    --color-middleGreen: #97B387;
+    --color-darkGreen: #316610;
+    --color-brown: #8E6436;
+    --color-yellow: #E2E499;
+    --color-gray: #99999A;
+}
+
+.center {
+    justify-content: center;
+}
+
+html,
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    background-image: url("./img/outside_background.jpg");
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.own-container {
+    width: 100%;
+    background-color: var(--color-darkGreen);
+    padding: 0 20px;
+}
+
+[class^="col"]>div {
+    padding: 20px 10px;
+    margin: 0 auto;
+}
