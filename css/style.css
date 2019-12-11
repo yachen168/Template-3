@@ -56,3 +56,27 @@ header {
 header h1 {
     margin: 20px 0;
 }
+
+
+/* ------nav--------- */
+
+.nav {
+    background-color: var(--color-dark);
+    border-bottom: 1px solid var(--color-white);
+}
+
+.nav-link {
+    flex: 1;
+    padding: 10px 0;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.nav a:hover {
+    color: var(--color-dark);
+    background-color: var(--color-lightGreen);
+}
+
+.nav button {
+    border: none;
+}
