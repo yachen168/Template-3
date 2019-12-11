@@ -225,3 +225,57 @@ hr {
 .article-content p:last-child {
     margin-bottom: 0;
 }
+
+
+/* --------------footer--------------- */
+
+footer .contact {
+    color: var(--color-gray);
+    background-color: var(--color-lightGreen);
+    text-align: center;
+}
+
+footer .contact-item {
+    padding: 20px;
+}
+
+footer .social {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-item p {
+    margin-bottom: 0;
+}
+
+.contact-item h3 {
+    margin-bottom: 16px;
+}
+
+.social img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.social span {
+    vertical-align: middle;
+}
+
+.copyright {
+    font-weight: 600;
+    font-size: 0;
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.copyright>div {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.copyright span {
+    display: none;
+    font-size: 0.9rem;
+}
