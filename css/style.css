@@ -112,3 +112,42 @@ header h1 {
     font-size: 18px;
     color: var( --color-yellow);
 }
+
+
+/* -------section plants--------- */
+
+.plants {
+    padding: 0 10px;
+}
+
+.item {
+    font-size: 0;
+}
+
+.item-img,
+.item-body {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item-img {
+    width: 34%;
+    font-size: 0;
+    border: 2px solid #fff;
+}
+
+.item-body {
+    width: 66%;
+    padding-left: 20px;
+    font-weight: 500;
+    color: #eee;
+}
+
+.item-body h3 {
+    color: var(--color-yellow);
+}
+
+.item-body p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
