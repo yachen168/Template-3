@@ -80,3 +80,35 @@ header h1 {
 .nav button {
     border: none;
 }
+
+
+/* -------輪播圖--------- */
+
+.carousel p {
+    display: -webkit-box;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    font-size: 15px;
+}
+
+.banner {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    font-weight: 500;
+    color: var(--color-white);
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+
+.banner img {
+    width: 15px;
+}
+
+.banner h2 {
+    font-size: 18px;
+    color: var( --color-yellow);
+}
