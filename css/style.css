@@ -151,3 +151,44 @@ header h1 {
     font-size: 15px;
     margin-bottom: 0;
 }
+
+
+/* -----------main------------ */
+
+main {
+    padding: 20px 10px;
+    background-color: #fff;
+}
+
+main h2 {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: var(--color-brown);
+    background-color: var(--color-lightGreen);
+    border-bottom: 2px solid #C8DBBE;
+}
+
+.own-card-img {
+    margin-bottom: 20px;
+}
+
+.gardens .title {
+    padding: 0 10px;
+}
+
+.own-card {
+    text-align: center;
+}
+
+.gardens h3 {
+    color: var(--color-brown);
+}
+
+.gardens p {
+    color: #555;
+    margin-bottom: 0;
+}
+
+hr {
+    margin: 0 10px;
+}
