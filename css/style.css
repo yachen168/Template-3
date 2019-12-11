@@ -192,3 +192,36 @@ main h2 {
 hr {
     margin: 0 10px;
 }
+
+
+/* ----------section news--------- */
+
+.news {
+    position: relative;
+    background-color: #fff;
+}
+
+.article {
+    counter-reset: section;
+}
+
+.article h2 {
+    margin-bottom: 30px;
+}
+
+.article-content p {
+    color: #555;
+    padding-left: 20px;
+}
+
+.article-content p::before {
+    position: absolute;
+    left: 10px;
+    counter-increment: section;
+    content: counter(section) ". ";
+    font-weight: 600;
+}
+
+.article-content p:last-child {
+    margin-bottom: 0;
+}
