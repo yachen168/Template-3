@@ -302,3 +302,34 @@ footer .social {
         width: 75%;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .plants .item>div {
+        vertical-align: top;
+    }
+    .plants>div+div::before {
+        content: " ";
+        position: absolute;
+        height: 85%;
+        width: 3px;
+        left: -15px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        background-color: #387114;
+        box-shadow: 1px 0 2px #444;
+    }
+    .plants .item-body {
+        padding-right: 20px;
+    }
+    .own-card,
+    .contact-item {
+        text-align: left;
+    }
+    .contact div+div {
+        border-left: 1px solid #C8DBBE;
+    }
+    .copyright>div {
+        width: auto;
+    }
+}
