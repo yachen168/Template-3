@@ -279,3 +279,20 @@ footer .social {
     display: none;
     font-size: 0.9rem;
 }
+
+
+/* ------media------- */
+
+@media screen and (min-width: 576px) {
+    .banner {
+        padding: 20px;
+    }
+    .banner p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        font-size: 0.9rem;
+    }
+}
