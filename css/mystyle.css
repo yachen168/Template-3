@@ -252,6 +252,12 @@ footer .social {
     margin-bottom: 16px;
 }
 
+.social>a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-gray);
+}
+
 .social img {
     width: 20px;
     margin-right: 10px;
