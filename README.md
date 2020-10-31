@@ -38,11 +38,5 @@ Bootstrap4
 
 <br>
 
-## 成果 Demo
-
-[https://yachen168.github.io/Template-3/](https://yachen168.github.io/Template-3/)
-
-<br>
-
 #### 設計稿
 ![image](./Template_3.png)
